@@ -22,32 +22,6 @@ This website is created with Jekyll. [Other Jekyll websites](https://github.com/
 
 ### Ruby and PHP code   
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-```php
-<?php
-	class person91{
-		var $color;
-		function eat(){
-			echo $this->name.'要吃饭';
-		}
-		function xinxi(){
-			echo $this->name.' is '.$this->sex.' and age is '.$this->age.' fuse is '.$this->color;
-		}
-		function zuoyong(){
-		    //类似于这样的内部调用，相当于把eat()的代码引入到
-			$this->eat();
-		}		
-	}
-?>
-```
-
 ### What does Jekyll Do?
 
 Jekyll is a ruby gem you install on your local system.
