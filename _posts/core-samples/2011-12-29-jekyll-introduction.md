@@ -430,7 +430,7 @@ As noted, our main programming constraint is the fact that our API is limited to
 
 Jekyll-bootstrap is intended to provide helper methods and strategies aimed at making it more intuitive and easier to work with Jekyll =)
 
-**Thank you** for reading this far.
+**Thank you** for reading this far. 
 
 ## Next Steps
 
