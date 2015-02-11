@@ -1,9 +1,9 @@
 ---
 layout: post
 category : lessons
-title : 中文标题
+title : 测试文章
 tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+tags : [jekyll, git]
 ---
 {% include JB/setup %}
 
