@@ -3,8 +3,8 @@
 permalink: /blog/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
-#highlighter: rouge  #本地环境保存的话使用pygments
+#highlighter: pygments
+highlighter: rouge  #本地环境保存的话使用pygments
 markdown: redcarpet
 
 # Themes are encouraged to use these universal variables 

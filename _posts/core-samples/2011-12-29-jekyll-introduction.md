@@ -38,9 +38,6 @@ print_hi('Tom')
 		function eat(){
 			echo $this->name.'test';
 		}
-		function xinxi(){
-			echo $this->name.' is '.$this->sex.' and age is '.$this->age.' fuse is '.$this->color;
-		}
 		function zuoyong(){
 		    //类似于这样的内部调用，相当于把eat()的代码引入到
 			$this->eat();
