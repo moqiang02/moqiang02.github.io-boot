@@ -1,6 +1,7 @@
 ---
 layout: post
 category : lessons
+title : 中文标题
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
 ---
@@ -32,10 +33,10 @@ print_hi('Tom')
     
 ```php
 <?php
-	class person91{
+	class person{
 		var $color;
 		function eat(){
-			echo $this->name.'要吃饭';
+			echo $this->name.'test';
 		}
 		function xinxi(){
 			echo $this->name.' is '.$this->sex.' and age is '.$this->age.' fuse is '.$this->color;
