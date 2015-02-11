@@ -22,13 +22,39 @@ This website is created with Jekyll. [Other Jekyll websites](https://github.com/
 
 ### Ruby and PHP code   
 
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+```php
+<?php
+	class person91{
+		var $color;
+		function eat(){
+			echo $this->name.'要吃饭';
+		}
+		function xinxi(){
+			echo $this->name.' is '.$this->sex.' and age is '.$this->age.' fuse is '.$this->color;
+		}
+		function zuoyong(){
+		    //类似于这样的内部调用，相当于把eat()的代码引入到
+			$this->eat();
+		}		
+	}
+?>
+```
+
 ### What does Jekyll Do?
 
 Jekyll is a ruby gem you install on your local system.
 Once there you can call `jekyll --server` on a directory and provided that directory
 is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files,
-compute categories, tags, permalinks, and construct your pages from layout templates and partials.  
-
+compute categories, tags, permalinks, and construct your pages from layout templates and partials.
+![替代文本](/assets/images/test.jpg "可选的title")  
 Once parsed, Jekyll stores the result in a self-contained static `_site` folder.
 The intention here is that you can serve all contents in this folder statically from a plain static web-server.
 
